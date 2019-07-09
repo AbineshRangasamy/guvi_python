@@ -1,4 +1,9 @@
-var=input()
-if var=len(1000):
-  for i in range(var):
-    if 
+abi=input()
+count=0
+for i in abi:
+  if (i.isdigit() or i.isalpha()):
+    count+=1
+if count!=0:
+  print("Yes")
+else:
+  print("No")
