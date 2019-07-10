@@ -1,0 +1,2 @@
+abi=input()
+print(abi+".")
