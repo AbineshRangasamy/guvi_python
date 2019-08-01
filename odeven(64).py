@@ -1,6 +1,6 @@
-val1,val2=map(int,input().split())
-val3=val1+val2
-if val3%2 != 0:
+val11,val12=map(int,input().split())
+val13=va1l1+val12
+if val13%2 != 0:
     print("odd")
 else:
     print("even")
