@@ -1,0 +1,8 @@
+def myfun(a,b,c):
+  exploder(a,c)
+def exploder(d,e):
+  for i in range(e):
+    print(d)
+stg,no=input().split()
+a=int(no)
+myfun(stg,exploder,a)
