@@ -1,0 +1,7 @@
+import math
+a,b,c = map(int,input().split())
+w = ((b*b) - ( 4 * a * c ))
+x = (-b + math.sqrt(w) )/(2*a)
+y = (-b - math.sqrt(w) )/(2*a)
+print("%.2f" %(x))
+print("%.2f" %(y))
