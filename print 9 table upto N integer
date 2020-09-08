@@ -1,0 +1,7 @@
+N = int(input())
+if N != 0:
+  for x in range(1,N):
+    print(9*x,end=" ")
+  print(9*N)
+else:
+  print("NULL")
